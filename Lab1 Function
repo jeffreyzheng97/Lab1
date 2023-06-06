@@ -1,0 +1,7 @@
+def whatage():
+    birthyear = int(input("What year were you born??: "))
+    year = 2023
+    age = year - birthyear
+    print(f"You're {age} years old.")
+
+whatage()
