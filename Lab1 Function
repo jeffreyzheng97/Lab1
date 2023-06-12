@@ -1,12 +1,14 @@
 def whatage():
-    birthyear = int(input("What year were you born??: "))
-    year = 2023
-    age = year - birthyear
-    print("You're ' + str(age) + ' years old.")
+    try:
+        birthyear = int(input("What year were you born??: "))
+        year = 2023
+        age = year - birthyear
+        print("You're ' + str(age) + ' years old.")
+    except ValueError:
+        print("Please enter the year as a number.")
 
 def helloWorld():
     print('Hello World')
-
 
 whatage()
 helloWorld()
