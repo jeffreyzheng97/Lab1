@@ -4,4 +4,8 @@ def whatage():
     age = year - birthyear
     print('You're ' + str(age) + ' years old.')
 
+def helloWorld():
+    print('Hello World')
+
 whatage()
+helloWorld()
